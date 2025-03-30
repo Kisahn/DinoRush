@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2464E779-C4CB-4390-AE6F-A089289BA27B}" SchemaVersion="97">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{2464E779-C4CB-4390-AE6F-A089289BA27B}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="Main" ID="{845408CD-6157-431B-980F-20011A227802}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Foot_Player" ID="{08159AA1-A991-4081-B369-D1FB44289E62}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Get_Coin" ID="{0F248BCA-E229-41D0-B5A5-50281E616A41}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Space_Jump" ID="{76A78907-3D39-424D-BF5C-2F0BA2F517B7}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Back" ID="{094A1351-8519-4273-964E-43EB37D1DA30}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_Music" ID="{0BB41724-C332-455C-8728-0F6A3E801408}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Death" ID="{67D3A538-3174-45D3-ACFF-0051F385AC56}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Water_Ambiance" ID="{05722887-7FCC-480F-A241-920C1EED89C9}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Validation" ID="{A8754A6F-58E5-4A4A-B1D5-344B80293403}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Start_Birds_Ambiance" ID="{FB92C067-979C-4C40-9F7B-68A515F35909}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Game_Music" ID="{8B488706-A599-4C7F-8633-396365B679DC}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Touch_Water" ID="{43B6C236-F5BA-4D84-8197-198C75FDAC56}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Hoover" ID="{DD072ED8-F0BA-4EFB-B479-1CA7A474A566}" WorkUnitID="{6FB47123-72E5-4B08-B002-ECE371BBAF07}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

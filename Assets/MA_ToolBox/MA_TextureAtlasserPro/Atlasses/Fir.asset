@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8249946991008525831
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: new LeafFir
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 515.1456
+    y: 0
+    width: 508.85437
+    height: 509.38696
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2080.06
+    y: 928.2515
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2352.06
+    y: 656.2515
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2096.06
+    y: 672.2515
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 5228f87cccf7bc34fbd42e803565d823, type: 3}
+  - name: Normal
+    texture: {fileID: 0}
+  - name: AO
+    texture: {fileID: 0}
+  - name: Metallic
+    texture: {fileID: 0}
+  - name: Height
+    texture: {fileID: 0}
+  - name: Mask
+    texture: {fileID: 2800000, guid: da01a46bb753a7144b4b878e01d9ca4c, type: 3}
+  modelGroups:
+  - name: PZIvnX
+    meshes:
+    - {fileID: 9040336808493797309, guid: e3dc08e41627df24e807560f0adfd9c1, type: 3}
+--- !u!114 &-6903911117868885726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: new new LeafFir
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 514.61304
+    width: 508.85437
+    height: 509.38696
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1568.0602
+    y: 1440.2515
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1840.0602
+    y: 1168.2515
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1584.0602
+    y: 1184.2515
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 27d0075883772834fb84efaf7f99606f, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 5b824ac329411564697a37d035dcf844, type: 3}
+  - name: AO
+    texture: {fileID: 2800000, guid: 2b7200428e3076f40b5afcf5c97b060e, type: 3}
+  - name: Metallic
+    texture: {fileID: 2800000, guid: e28f8ce030f0d70439508794df48aeed, type: 3}
+  - name: Height
+    texture: {fileID: 2800000, guid: 93c725fcf53f95746854186d2a8200c3, type: 3}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  modelGroups:
+  - name: TroncBoulot
+    meshes:
+    - {fileID: -8486701313647403987, guid: b6208655c31c68f45929ff7d9165dd7b, type: 3}
+    - {fileID: 7880132848547406752, guid: 29811bb9105a36743bdbc5172d6af9fd, type: 3}
+    - {fileID: 5803351976317274801, guid: 815e8e9af0063b449b2a43c9c7089309, type: 3}
+    - {fileID: 3804550267032327969, guid: afd38dd0b82f97849bf0056b2c774dd1, type: 3}
+    - {fileID: 4239925764635354098, guid: b587f90bea0341b448d9f269849de085, type: 3}
+    - {fileID: 3766678571600017803, guid: 42ae13688d93cb84bb82c353c6fe140e, type: 3}
+    - {fileID: 9114715648039811904, guid: 117d163c03e32e642a41894bc9e72243, type: 3}
+    - {fileID: -5335658613540838566, guid: b55b3a9305c71d14bb505c013624a477, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 892d1a7aeb4cc284dbf62e69e125db52, type: 3}
+  m_Name: Fir
+  m_EditorClassIdentifier: 
+  textureQuads:
+  - {fileID: 3543044688388325350}
+  - {fileID: 1214495306117081259}
+  - {fileID: -8249946991008525831}
+  - {fileID: -6903911117868885726}
+  - {fileID: 3170571196675716512}
+  selectedTextureQuad: {fileID: 0}
+  showTextures: 1
+  exportSettings: {fileID: 11400000, guid: 160383451e225c148ba835f06e8412fe, type: 2}
+  textureAtlasSize: {x: 1024, y: 1024}
+  textureGroupRegistration:
+  - name: Albedo
+  - name: Normal
+  - name: AO
+  - name: Metallic
+  - name: Height
+  - name: Opacity
+--- !u!114 &1214495306117081259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: rocknormal
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 128
+    height: 128
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  dragRectWidth:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  dragRectPos:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  modelGroups: []
+--- !u!114 &3170571196675716512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: new new new LeafFir
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 515.1456
+    y: 509.9618
+    width: 508.85437
+    height: 509.38696
+  guiRect:
+    serializedVersion: 2
+    x: 512
+    y: 512
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 2080.06
+    y: 1440.2515
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 2352.06
+    y: 1168.2515
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 2096.06
+    y: 1184.2515
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: 79463cea93d7a3c4c977d76dc90aa248, type: 3}
+  - name: Normal
+    texture: {fileID: 2800000, guid: 942753bc61b9e2d44ba7661832753c4a, type: 3}
+  - name: AO
+    texture: {fileID: 0}
+  - name: Metallic
+    texture: {fileID: 0}
+  - name: Height
+    texture: {fileID: 0}
+  - name: New TextureGroup
+    texture: {fileID: 0}
+  modelGroups:
+  - name: TroncBoulot
+    meshes:
+    - {fileID: -9088587359526165035, guid: e3dc08e41627df24e807560f0adfd9c1, type: 3}
+--- !u!114 &3543044688388325350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16ad07a78750c7644b710e19e1a23d4a, type: 3}
+  m_Name: LeafFir
+  m_EditorClassIdentifier: 
+  isSelected: 0
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 508.85437
+    height: 509.38696
+  guiRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 512
+    height: 512
+  debugMode: 0
+  dragRectHeight:
+    serializedVersion: 2
+    x: 1568.0602
+    y: 928.2515
+    width: 64
+    height: 16
+  dragRectWidth:
+    serializedVersion: 2
+    x: 1840.0602
+    y: 656.2515
+    width: 16
+    height: 64
+  dragRectPos:
+    serializedVersion: 2
+    x: 1584.0602
+    y: 672.2515
+    width: 32
+    height: 32
+  textureGroups:
+  - name: Albedo
+    texture: {fileID: 2800000, guid: fb6d98048ee70c64a938f94904f2f09f, type: 3}
+  - name: Normal
+    texture: {fileID: 0}
+  - name: AO
+    texture: {fileID: 0}
+  - name: Metallic
+    texture: {fileID: 0}
+  - name: Height
+    texture: {fileID: 0}
+  - name: Opacity
+    texture: {fileID: 2800000, guid: e330dd0577fdb8a49b8e21a39b4e0a51, type: 3}
+  modelGroups:
+  - name: PZIvnX
+    meshes:
+    - {fileID: 272620219224400015, guid: 4c240702def054547a243fd980d1f880, type: 3}

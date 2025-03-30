@@ -1,0 +1,24 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Material			
+	2195636714	Dirt	Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	68470490	Step Stone 8	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 8		460236
+	72313671	Step Dirt 4	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 4		368204
+	112598289	Step Stone 1	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 1		368204
+	119469426	Step Stone 5	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 5		368204
+	187596637	Step Dirt 2	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 2		368204
+	265201230	Step Stone 2	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 2		368204
+	343997471	Step Dirt 1	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 1		368204
+	358359212	Step Stone 7	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 7		368204
+	559268308	Step Dirt 3	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 3		368204
+	882530945	Step Stone 6	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 6		368204
+	942196469	Step Stone 4	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 4		368204
+	1063180850	Step Stone 3	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 3		368204
+

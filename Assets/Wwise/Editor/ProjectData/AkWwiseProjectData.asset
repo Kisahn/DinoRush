@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a049b3577ac734da2bd333c3582749, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0c82442f03fde44cbef8c7f5885aeaf1
+    GuidInternal: 
+    m_lastTime: -8585903601434775808
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 412df855adbe6a41961417140fe04ddd
+    GuidInternal: 
+    m_lastTime: -8585903601554775808
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+      Path: Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 79e76424cbc49043ae6fa089289ba27b
+    GuidInternal: 
+    m_lastTime: -8585903601434775808
+    List:
+    - name: Main
+      guid: cd08548457611b43980f20011a227802
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Main
+        ObjectType: 7
+      Path: Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 2371b46fe572084bb002ece371bbaf07
+    GuidInternal: 
+    m_lastTime: -8585903601554775808
+    List:
+    - name: Back
+      guid: 51134a0919857342964e43eb37d1da30
+      id: 1559875400
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Back
+        ObjectType: 3
+      Path: Default Work Unit\Back
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Death
+      guid: 38a5d3677431d345acff0051f385ac56
+      id: 779278001
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Death
+        ObjectType: 3
+      Path: Default Work Unit\Death
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Foot_Player
+      guid: a19a150891a98140b369d1fb44289e62
+      id: 1894362767
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Foot_Player
+        ObjectType: 3
+      Path: Default Work Unit\Foot_Player
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Game_Music
+      guid: 0687488b99a57f4c8633396365b679dc
+      id: 258110631
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Game_Music
+        ObjectType: 3
+      Path: Default Work Unit\Game_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Get_Coin
+      guid: ca8b240f29e2d041b5a550281e616a41
+      id: 1153341081
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Get_Coin
+        ObjectType: 3
+      Path: Default Work Unit\Get_Coin
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Hoover
+      guid: d82e07ddbaf0fb4eb4791ca7a474a566
+      id: 3417257020
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Hoover
+        ObjectType: 3
+      Path: Default Work Unit\Hoover
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Space_Jump
+      guid: 0789a776393d4d42bf5c2f0ba2f517b7
+      id: 632511448
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Space_Jump
+        ObjectType: 3
+      Path: Default Work Unit\Space_Jump
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start_Birds_Ambiance
+      guid: 67c092fb9c97404c9f7b68a515f35909
+      id: 2895897377
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start_Birds_Ambiance
+        ObjectType: 3
+      Path: Default Work Unit\Start_Birds_Ambiance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Start_Water_Ambiance
+      guid: 87287205cc7f0f48a241920c1eed89c9
+      id: 316055958
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Start_Water_Ambiance
+        ObjectType: 3
+      Path: Default Work Unit\Start_Water_Ambiance
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Stop_Music
+      guid: 2417b40b32c35c4587280f6a3e801408
+      id: 2837384057
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Stop_Music
+        ObjectType: 3
+      Path: Default Work Unit\Stop_Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Touch_Water
+      guid: 36c2b643baf5844d8197198c75fdac56
+      id: 465558846
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Touch_Water
+        ObjectType: 3
+      Path: Default Work Unit\Touch_Water
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Validation
+      guid: 6f4a75a8e5584a4ab1d5344b80293403
+      id: 1719053472
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Validation
+        ObjectType: 3
+      Path: Default Work Unit\Validation
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: d3af700d74cc994fa8f80d101296cc52
+    GuidInternal: 
+    m_lastTime: -8585903601554775808
+    List:
+    - name: Pause_Menu
+      guid: 9d9896145601f441bdb2c0bd045d006b
+      id: 3422541661
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Pause_Menu
+        ObjectType: 13
+      Path: Default Work Unit\Pause_Menu
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: c4898b307c9cd942928926b0a833ec5b
+    GuidInternal: 
+    m_lastTime: -8585903601434775808
+    List:
+    - name: Dead_or_Alive
+      guid: 4d3ba70bae94d2499bd92bb4b788d5ea
+      id: 3575957003
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Dead_or_Alive
+        ObjectType: 9
+      Path: Default Work Unit\Dead_or_Alive
+      values:
+      - name: Alive
+        guid: 1114bd46b6c2ac449f36b9f8cb8ccdcb
+        id: 655265632
+        PathAndIcons:
+        - ElementName: Alive
+          ObjectType: 8
+      - name: Dead
+        guid: 1759d7bec61ddd47bebd8e9f4f5d180a
+        id: 2044049779
+        PathAndIcons:
+        - ElementName: Dead
+          ObjectType: 8
+      - name: None
+        guid: 37d3a9c6ddaa4243a8367e6ef6669153
+        id: 748895195
+        PathAndIcons:
+        - ElementName: None
+          ObjectType: 8
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 377846034e5b3844bf4648b96c57bbb9
+    GuidInternal: 
+    m_lastTime: -8585903601434775808
+    List:
+    - name: Material
+      guid: ccadd4bb301b534dbffb2e174a0ec79a
+      id: 3865314626
+      PathAndIcons:
+      - ElementName: Default Work Unit
+        ObjectType: 12
+      - ElementName: Material
+        ObjectType: 11
+      Path: Default Work Unit\Material
+      values:
+      - name: Dirt
+        guid: 14a0b955b4e8954097f9dc079dd46a2a
+        id: 2195636714
+        PathAndIcons:
+        - ElementName: Dirt
+          ObjectType: 10
+      - name: Stone
+        guid: 65fab5a34a1c1d4d88aff6a890a24ced
+        id: 1216965916
+        PathAndIcons:
+        - ElementName: Stone
+          ObjectType: 10
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Default Work Unit
+      ObjectType: 12
+    ParentPath: Default Work Unit
+    guid: 0709120fa73ed94686807a54dccbe225
+    GuidInternal: 
+    m_lastTime: -8585903601434775808
+    List: []
+  ExpandedItems:
+  - /Dinorush_WwiseProject
+  - /Dinorush_WwiseProject/Events
+  - /Dinorush_WwiseProject/Events/Default Work Unit
+  - /Dinorush_WwiseProject/SoundBanks
+  - /Dinorush_WwiseProject/SoundBanks/Default Work Unit
+  - /Dinorush_WwiseProject/Switches
+  - /Dinorush_WwiseProject/Switches/Default Work Unit
+  autoPopulateEnabled: 1
+  CurrentPluginConfig: Release

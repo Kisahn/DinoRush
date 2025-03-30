@@ -1,0 +1,65 @@
+Event	ID	Name			Wwise Object Path	Notes
+	258110631	Game_Music			\Default Work Unit\Game_Music	
+	316055958	Start_Water_Ambiance			\Default Work Unit\Start_Water_Ambiance	
+	465558846	Touch_Water			\Default Work Unit\Touch_Water	
+	632511448	Space_Jump			\Default Work Unit\Space_Jump	
+	779278001	Death			\Default Work Unit\Death	
+	1153341081	Get_Coin			\Default Work Unit\Get_Coin	
+	1559875400	Back			\Default Work Unit\Back	
+	1719053472	Validation			\Default Work Unit\Validation	
+	1894362767	Foot_Player			\Default Work Unit\Foot_Player	
+	2837384057	Stop_Music			\Default Work Unit\Stop_Music	
+	2895897377	Start_Birds_Ambiance			\Default Work Unit\Start_Birds_Ambiance	
+	3417257020	Hoover			\Default Work Unit\Hoover	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	1216965916	Stone	Material			
+	2195636714	Dirt	Material			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3575957003	Dead_or_Alive			\Default Work Unit\Dead_or_Alive	
+
+State	ID	Name	State Group			Notes
+	655265632	Alive	Dead_or_Alive			
+	748895195	None	Dead_or_Alive			
+	2044049779	Dead	Dead_or_Alive			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3422541661	Pause_Menu			\Default Work Unit\Pause_Menu	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	41693363	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	43748760	Coins	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Coin 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Coins		368204
+	51827927	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute5_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	68470490	Step Stone 8	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 8_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 8		460236
+	72313671	Step Dirt 4	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 4		368204
+	80522514	Music-bass	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music\Music-bass_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Music-bass		11780516
+	112598289	Step Stone 1	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 1		368204
+	119469426	Step Stone 5	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 5		368204
+	187596637	Step Dirt 2	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 2		368204
+	217008571	Retour	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Back_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Retour		368204
+	218152044	Validation	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Valide_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Validation		276168
+	265201230	Step Stone 2	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 2		368204
+	343997471	Step Dirt 1	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 1		368204
+	358359212	Step Stone 7	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 7		368204
+	364161305	Hoover	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Hoover_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Hoover		92100
+	437738811	Jump	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Jump_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Jump		184132
+	453215334	Music-stop	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-stop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop Game Over\Game Over Music\Music-stop		644308
+	498674537	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	530641430	Music-game over	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music\Music-game over_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop Game Over\Game Over Music\Music-game over		4417732
+	559268308	Step Dirt 3	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Dirt 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Dirt\Step Dirt 3		368204
+	598124920	Water (GO)	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Sound-Water_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Water (GO)		276168
+	600199632	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute3_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	617648521	Water (Ambiant)	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Ambiance-eau_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Water (Ambiant)		11780516
+	692114680	Music-death	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-death_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music-death		460236
+	698938904	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	754236012	Music-perc	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-perc_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Music-perc		11780516
+	882530945	Step Stone 6	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 6		368204
+	942196469	Step Stone 4	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 4		368204
+	958394285	Flute	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Music-flute6_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Game Music Switch\Loop in Game\Game Music\Flute		1472620
+	1063180850	Step Stone 3	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Step Stone 3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Stone\Step Stone 3		368204
+	1069731782	Birds (Ambiant)	F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Dinorush_WwiseProject\.cache\Windows\SFX\Ambiance-Oiseaux_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Birds (Ambiant)		11780516
+

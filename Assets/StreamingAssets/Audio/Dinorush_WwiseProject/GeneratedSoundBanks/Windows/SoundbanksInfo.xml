@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Assets\StreamingAssets\Audio\Dinorush_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Assets\StreamingAssets\Audio\Dinorush_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Assets\StreamingAssets\Audio\Dinorush_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>F:\Fac\HIC\Gamejam\Dino Rush\Dinorush\Assets\StreamingAssets\Audio\Dinorush_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3754370926">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1261495876">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1559875400" Name="Back" ObjectPath="\Events\Default Work Unit\Back" DurationType="OneShot" DurationMin="2.086962" DurationMax="2.086962">
+					<IncludedMemoryFiles>
+						<File Id="217008571" Language="SFX">
+							<ShortName>Sound-Back.wav</ShortName>
+							<Path>SFX\Sound-Back_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="779278001" Name="Death" ObjectPath="\Events\Default Work Unit\Death" DurationType="OneShot" DurationMin="2.608685" DurationMax="2.608685">
+					<IncludedMemoryFiles>
+						<File Id="692114680" Language="SFX">
+							<ShortName>Music-death.wav</ShortName>
+							<Path>SFX\Music-death_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1894362767" Name="Foot_Player" ObjectPath="\Events\Default Work Unit\Foot_Player" DurationType="OneShot" DurationMin="3.671268" DurationMax="7.148148">
+					<IncludedMemoryFiles>
+						<File Id="68470490" Language="SFX">
+							<ShortName>Step Stone 8.wav</ShortName>
+							<Path>SFX\Step Stone 8_10C4C929.wem</Path>
+						</File>
+						<File Id="72313671" Language="SFX">
+							<ShortName>Step Dirt 4.wav</ShortName>
+							<Path>SFX\Step Dirt 4_10C4C929.wem</Path>
+						</File>
+						<File Id="112598289" Language="SFX">
+							<ShortName>Step Stone 1.wav</ShortName>
+							<Path>SFX\Step Stone 1_10C4C929.wem</Path>
+						</File>
+						<File Id="119469426" Language="SFX">
+							<ShortName>Step Stone 5.wav</ShortName>
+							<Path>SFX\Step Stone 5_10C4C929.wem</Path>
+						</File>
+						<File Id="187596637" Language="SFX">
+							<ShortName>Step Dirt 2.wav</ShortName>
+							<Path>SFX\Step Dirt 2_10C4C929.wem</Path>
+						</File>
+						<File Id="265201230" Language="SFX">
+							<ShortName>Step Stone 2.wav</ShortName>
+							<Path>SFX\Step Stone 2_10C4C929.wem</Path>
+						</File>
+						<File Id="343997471" Language="SFX">
+							<ShortName>Step Dirt 1.wav</ShortName>
+							<Path>SFX\Step Dirt 1_10C4C929.wem</Path>
+						</File>
+						<File Id="358359212" Language="SFX">
+							<ShortName>Step Stone 7.wav</ShortName>
+							<Path>SFX\Step Stone 7_10C4C929.wem</Path>
+						</File>
+						<File Id="559268308" Language="SFX">
+							<ShortName>Step Dirt 3.wav</ShortName>
+							<Path>SFX\Step Dirt 3_10C4C929.wem</Path>
+						</File>
+						<File Id="882530945" Language="SFX">
+							<ShortName>Step Stone 6.wav</ShortName>
+							<Path>SFX\Step Stone 6_10C4C929.wem</Path>
+						</File>
+						<File Id="942196469" Language="SFX">
+							<ShortName>Step Stone 4.wav</ShortName>
+							<Path>SFX\Step Stone 4_10C4C929.wem</Path>
+						</File>
+						<File Id="1063180850" Language="SFX">
+							<ShortName>Step Stone 3.wav</ShortName>
+							<Path>SFX\Step Stone 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{55B9A014-E8B4-4095-97F9-DC079DD46A2A}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{55B9A014-E8B4-4095-97F9-DC079DD46A2A}">
+							<Media>
+								<File Id="72313671"/>
+								<File Id="187596637"/>
+								<File Id="343997471"/>
+								<File Id="559268308"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A3B5FA65-1C4A-4D1D-88AF-F6A890A24CED}">
+							<Media>
+								<File Id="68470490"/>
+								<File Id="112598289"/>
+								<File Id="119469426"/>
+								<File Id="265201230"/>
+								<File Id="358359212"/>
+								<File Id="882530945"/>
+								<File Id="942196469"/>
+								<File Id="1063180850"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="258110631" Name="Game_Music" ObjectPath="\Events\Default Work Unit\Game_Music" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="41693363" Language="SFX">
+							<ShortName>Music-flute2.wav</ShortName>
+							<Path>SFX\Music-flute2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="51827927" Language="SFX">
+							<ShortName>Music-flute5.wav</ShortName>
+							<Path>SFX\Music-flute5_D79FB2B7.wem</Path>
+						</File>
+						<File Id="80522514" Language="SFX">
+							<ShortName>Music\Music-bass.wav</ShortName>
+							<Path>SFX\Music\Music-bass_D79FB2B7.wem</Path>
+						</File>
+						<File Id="453215334" Language="SFX">
+							<ShortName>Music-stop.wav</ShortName>
+							<Path>SFX\Music-stop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="498674537" Language="SFX">
+							<ShortName>Music-flute1.wav</ShortName>
+							<Path>SFX\Music-flute1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="530641430" Language="SFX">
+							<ShortName>Music\Music-game over.wav</ShortName>
+							<Path>SFX\Music\Music-game over_D79FB2B7.wem</Path>
+						</File>
+						<File Id="600199632" Language="SFX">
+							<ShortName>Music-flute3.wav</ShortName>
+							<Path>SFX\Music-flute3_D79FB2B7.wem</Path>
+						</File>
+						<File Id="698938904" Language="SFX">
+							<ShortName>Music-flute4.wav</ShortName>
+							<Path>SFX\Music-flute4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="754236012" Language="SFX">
+							<ShortName>Music-perc.wav</ShortName>
+							<Path>SFX\Music-perc_D79FB2B7.wem</Path>
+						</File>
+						<File Id="958394285" Language="SFX">
+							<ShortName>Music-flute6.wav</ShortName>
+							<Path>SFX\Music-flute6_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{46BD1411-C2B6-44AC-9F36-B9F8CB8CCDCB}">
+							<Media>
+								<File Id="41693363"/>
+								<File Id="51827927"/>
+								<File Id="80522514"/>
+								<File Id="498674537"/>
+								<File Id="600199632"/>
+								<File Id="698938904"/>
+								<File Id="754236012"/>
+								<File Id="958394285"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{BED75917-1DC6-47DD-BEBD-8E9F4F5D180A}">
+							<Media>
+								<File Id="453215334"/>
+								<File Id="530641430"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="1153341081" Name="Get_Coin" ObjectPath="\Events\Default Work Unit\Get_Coin" DurationType="OneShot" DurationMin="2.057041" DurationMax="2.117317">
+					<IncludedMemoryFiles>
+						<File Id="43748760" Language="SFX">
+							<ShortName>Sound-Coin 2.wav</ShortName>
+							<Path>SFX\Sound-Coin 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3417257020" Name="Hoover" ObjectPath="\Events\Default Work Unit\Hoover" DurationType="OneShot" DurationMin="0.521746" DurationMax="0.521746">
+					<IncludedMemoryFiles>
+						<File Id="364161305" Language="SFX">
+							<ShortName>Sound-Hoover.wav</ShortName>
+							<Path>SFX\Sound-Hoover_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="632511448" Name="Space_Jump" ObjectPath="\Events\Default Work Unit\Space_Jump" DurationType="OneShot" DurationMin="1.034467" DurationMax="1.067859">
+					<IncludedMemoryFiles>
+						<File Id="437738811" Language="SFX">
+							<ShortName>Sound-Jump.wav</ShortName>
+							<Path>SFX\Sound-Jump_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2895897377" Name="Start_Birds_Ambiance" ObjectPath="\Events\Default Work Unit\Start_Birds_Ambiance" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="1069731782" Language="SFX">
+							<ShortName>Ambiance-Oiseaux.wav</ShortName>
+							<Path>SFX\Ambiance-Oiseaux_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="316055958" Name="Start_Water_Ambiance" ObjectPath="\Events\Default Work Unit\Start_Water_Ambiance" MaxAttenuation="100.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="617648521" Language="SFX">
+							<ShortName>Ambiance-eau.wav</ShortName>
+							<Path>SFX\Ambiance-eau_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2837384057" Name="Stop_Music" ObjectPath="\Events\Default Work Unit\Stop_Music" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="465558846" Name="Touch_Water" ObjectPath="\Events\Default Work Unit\Touch_Water" DurationType="OneShot" DurationMin="1.014917" DurationMax="2.089312">
+					<IncludedMemoryFiles>
+						<File Id="598124920" Language="SFX">
+							<ShortName>Sound-Water.wav</ShortName>
+							<Path>SFX\Sound-Water_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1719053472" Name="Validation" ObjectPath="\Events\Default Work Unit\Validation" DurationType="OneShot" DurationMin="1.565215" DurationMax="1.565215">
+					<IncludedMemoryFiles>
+						<File Id="218152044" Language="SFX">
+							<ShortName>Sound-Valide.wav</ShortName>
+							<Path>SFX\Sound-Valide_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="3422541661" Name="Pause_Menu" ObjectPath="\Game Parameters\Default Work Unit\Pause_Menu"/>
+			</GameParameters>
+			<StateGroups>
+				<StateGroup Id="3575957003" Name="Dead_or_Alive" ObjectPath="\States\Default Work Unit\Dead_or_Alive">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Dead_or_Alive\None"/>
+						<State Id="655265632" Name="Alive" ObjectPath="\States\Default Work Unit\Dead_or_Alive\Alive"/>
+						<State Id="2044049779" Name="Dead" ObjectPath="\States\Default Work Unit\Dead_or_Alive\Dead"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material">
+					<Switches>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Material\Stone"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Material\Dirt"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

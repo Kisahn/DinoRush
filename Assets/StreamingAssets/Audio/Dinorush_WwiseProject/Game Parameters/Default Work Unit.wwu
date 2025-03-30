@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0D70AFD3-CC74-4F99-A8F8-0D101296CC52}" SchemaVersion="97">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{0D70AFD3-CC74-4F99-A8F8-0D101296CC52}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="Pause_Menu" ID="{1496989D-0156-41F4-BDB2-C0BD045D006B}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

@@ -1,0 +1,67 @@
+Creative Commons Attribution-NonCommercial 4.0 International Public License
+
+By using, copying, modifying, or distributing this project ("DinoRush"), you agree to the terms of this license.
+
+---
+
+## You are free to:
+
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
+
+---
+
+## Under the following terms:
+
+- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+- **NonCommercial** — You may not use the material for commercial purposes.
+
+**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+---
+
+## Authors:
+
+This project was developed collaboratively by:
+
+- **Jean Deck** – Gameplay developer, UI logic
+  [https://www.linkedin.com/in/jean-deck-2b915aa9/](https://www.linkedin.com/in/jean-deck-2b915aa9/)
+
+- **Benoît Rivière** – Level designer, 3D modeling, animations
+  [https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/](https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/)
+
+- **Song Xue** – 3D modeling  
+  [https://www.linkedin.com/in/songxue1997/](https://www.linkedin.com/in/songxue1997/)
+
+- **Lauren Allard** – UI/UX designer, 2D assets  
+  [https://www.linkedin.com/in/lauren-allard/](https://www.linkedin.com/in/lauren-allard/)
+
+- **Benjamin Cicéron** – Sound designer, Wwise integration  
+  [https://www.linkedin.com/in/benjamin-ciceron/](https://www.linkedin.com/in/benjamin-ciceron/)
+
+---
+
+## Asset Restrictions
+
+This license applies **only** to the original source code contained in this repository.
+
+The following assets are **not** licensed under the CC BY-NC 4.0 license and **cannot be reused, redistributed, or modified** without the explicit permission of their respective authors:
+
+- All **audio assets**, including sound effects and music, integrated via Wwise.
+- All **3D models**, including the player character and environment meshes.
+- All **2D assets**, including UI elements, textures, and icons.
+- All **animations** created specifically for this project.
+
+These assets are included solely for **educational and non-commercial demonstration purposes**.  
+They remain the intellectual property of their respective creators and are **not to be used in any other project or context** without prior written consent.
+
+---
+
+## License Link
+
+Full license text available at:  
+https://creativecommons.org/licenses/by-nc/4.0/
+
+---
+
+For any commercial use or redistribution inquiries, please contact the authors directly.

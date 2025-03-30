@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Saves/Menu.unity
+    guid: a339fda3cc3de6d4f80f44722f1208ef
+  - enabled: 1
+    path: Assets/Saves/DinoRushLevelEnd.unity
+    guid: f8958fdc321091542b36e5d2a6d06551
+  m_configObjects: {}
