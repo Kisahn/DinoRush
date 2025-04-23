@@ -1,78 +1,97 @@
-> 🇬🇧 This project is also available in English: [Read in English 📄](./README.md)
+> 📘 This project is also available in English: [Read in English 🇬🇧](./README.md)
 
 # 🦖 DinoRush – Prototype de jeu de plateforme 3D
 
-**DinoRush** est un prototype de jeu de plateforme 3D inspiré de *Crash Bandicoot*, réalisé sous Unity.
+**DinoRush** est un prototype de jeu de plateforme 3D inspiré par *Crash Bandicoot*, développé avec Unity.
 
-Le joueur incarne un petit dinosaure et doit ramasser toutes les pièces d’un niveau sans tomber dans l’eau.  
-Le gameplay repose sur la **précision des sauts**, la **collecte**, et la **gestion du risque**.
+Le joueur incarne un petit dinosaure qui doit collecter toutes les pièces tout en évitant de tomber dans l’eau.  
+Le gameplay repose entièrement sur la **précision des sauts**, la **collecte d’objets** et la **gestion du risque**.
 
-Développé dans le cadre d’un projet collaboratif, DinoRush intègre une structure complète de jeu : menus, sons dynamiques (via Wwise), système de checkpoint, vies limitées, et interface utilisateur.
+Développé en collaboration, DinoRush propose une structure de jeu complète : menus, audio dynamique via Wwise, système de checkpoints, vies limitées, et retours visuels et sonores à l’écran.
 
 ---
 
-## 🎮 Fonctionnalités principales
+## 🎮 Fonctionnalités principales (v1.0.0 – Release finale)
 
-- ✅ Déplacement 3D complet avec gestion de la caméra
-- ✅ Système de saut avec feedback sonore (via Wwise)
-- ✅ Collecte de pièces avec effet visuel et sonore
-- ✅ Gravité personnalisée
-- ✅ Checkpoints manuels sur zones stables
-- ✅ Système de vies limitées + Game Over
-- ✅ Respawn au dernier checkpoint
-- ✅ Musique d’ambiance en boucle
-- ✅ Menus : Accueil, Pause, Options, Game Over
-- ✅ UI : compteur de pièces, nombre de vies restantes
-- ✅ Feedback audio sur les interactions importantes
+- ✅ Contrôleur joueur modulaire (mouvement, rotation, audio, animation)
+- ✅ Caméra refactorisée (rotation, suivi, angles limités)
+- ✅ Déplacement 3D et saut avec gravité personnalisée
+- ✅ Système de checkpoints avec réapparition
+- ✅ Game Over après perte de toutes les vies
+- ✅ Effet de particules visuel lors de la collecte des pièces (burst + disparition automatique)
+- ✅ Menus fonctionnels (pause, game over)
+- ✅ Menu principal avec chargement de scène
+- ✅ UI en jeu (compteur de vies, pièces)
+- ✅ Boutons avec retour sonore (hover/clic via Wwise)
+- ✅ Système de gestion de scènes
+- ✅ Build propre pour Windows
+- ✅ Versionné proprement avec Git
 
 ---
 
 ## 🧱 Technologies utilisées
 
-| Composant         | Description                                       |
-|-------------------|---------------------------------------------------|
-| 🎮 Unity 2020     | Moteur principal du projet                        |
-| 💻 C#             | Langage principal pour le gameplay et l’UI        |
-| 🎧 Wwise          | Middleware audio pour sons, musiques et feedback  |
-| 🧩 Unity UI       | Interface utilisateur (Canvas, EventSystem, etc.) |
-| 🕹️ CharacterController | Contrôle personnalisé du joueur             |
+| Composant               | Description                                      |
+|-------------------------|--------------------------------------------------|
+| 🎮 Unity 2020+          | Moteur de jeu                                    |
+| 💻 C#                   | Langage principal, architecture modulaire        |
+| 🎧 Wwise                | Middleware audio (feedback, musique, états)      |
+| 🧩 Unity UI             | Menus, transitions, intégration des interfaces   |
+| 🕹️ CharacterController | Déplacement 3D personnalisé avec collisions      |
+| 🔁 Animator             | Machine d’états complète (saut, idle, course)    |
+| ✨ Particules            | Effet Spark sur les pièces, burst et auto-stop   |
 
 ---
 
-## 👥 Development Team
+## 👥 Équipe de développement
 
-Collaborative project developed by:
+Projet réalisé en collaboration par :
 
-- **Jean Deck** – Gameplay developer, UI logic
+- **Jean Deck** – Programmation gameplay, scripts UI, architecture modulaire  
   [https://www.linkedin.com/in/jean-deck-2b915aa9/](https://www.linkedin.com/in/jean-deck-2b915aa9/)
 
-- **Benoît Rivière** – Level designer, 3D modeling, animations
-  [https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/](https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/)
-
-- **Song Xue** – 3D modeling  
-  [https://www.linkedin.com/in/songxue1997/](https://www.linkedin.com/in/songxue1997/)
-
-- **Lauren Allard** – UI/UX designer, 2D assets  
+- **Lauren Allard** – Design UI/UX & intégration complète des interfaces dans Unity (liaison design/scripts)  
   [https://www.linkedin.com/in/lauren-allard/](https://www.linkedin.com/in/lauren-allard/)
 
-- **Benjamin Cicéron** – Sound designer, Wwise integration  
+- **Benoît Rivière** – Level design, modélisation 3D, animations  
+  [https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/](https://www.linkedin.com/in/rivi%C3%A8rebeno%C3%AEt/)
+
+- **Song Xue** – Modélisation 3D  
+  [https://www.linkedin.com/in/songxue1997/](https://www.linkedin.com/in/songxue1997/)
+
+- **Benjamin Cicéron** – Sound design, intégration Wwise  
   [https://www.linkedin.com/in/benjamin-ciceron/](https://www.linkedin.com/in/benjamin-ciceron/)
+
+---
+
+## 📦 Build final
+
+- Plateforme : Windows x86_64
+- Téléchargement : disponible dans la section [Releases](https://github.com/Kisahn/DinoRush/releases)
+- Contrôles :
+  - ZQSD : déplacement
+  - Espace : saut
+  - Échap : pause
+- Remarques :
+  - L’audio fonctionne via le runtime Wwise (déjà intégré au build)
+  - Le jeu est autonome, aucun service Unity requis
 
 ---
 
 ## 🧪 Objectifs pédagogiques
 
-- Structurer un jeu complet dans Unity
-- Implémenter Wwise pour l'audio dynamique
-- Maîtriser la logique de jeu, UI, menus, checkpoints
-- Collaborer efficacement en équipe
-- Préparer le projet pour une lecture professionnelle via refactor
+- Concevoir une architecture modulaire avec Unity & C#
+- Intégrer Wwise pour des sons dynamiques déclenchés par événements
+- Créer et lier des interfaces utilisateur visuelles et fonctionnelles
+- Gérer des checkpoints, réapparitions et Game Over
+- Refactoriser du code monolithique en composants maintenables
+- Travailler en équipe multi-rôles avec un workflow de production structuré
 
 ---
 
 ## 📜 Licence
 
 Ce projet est publié sous licence [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).  
-Consultez le fichier [`LICENSE`](./LICENSE) pour plus d’informations.
+Voir le fichier [`LICENSE`](./LICENSE) pour les conditions complètes.
 
-> ⚠️ Les assets audio, visuels et animations ne sont **pas réutilisables** sans autorisation préalable.
+> ⚠️ Les assets audio, visuels et animations ne sont **pas réutilisables** sans autorisation explicite.

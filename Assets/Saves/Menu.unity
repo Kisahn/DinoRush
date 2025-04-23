@@ -457,6 +457,7 @@ GameObject:
   - component: {fileID: 520859988}
   - component: {fileID: 520859987}
   - component: {fileID: 520859990}
+  - component: {fileID: 520859991}
   m_Layer: 5
   m_Name: ReturnButton
   m_TagString: Untagged
@@ -551,6 +552,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 520859991}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &520859988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -606,8 +619,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 520859991}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -618,6 +631,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &520859991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520859985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
 --- !u!1 &609811338
 GameObject:
   m_ObjectHideFlags: 0
@@ -900,9 +927,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 855448927}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 251851895c7357d4e826f9b6968e332f, type: 3}
+  m_Script: {fileID: 11500000, guid: e2d9bcccbad98904089564f36f498b72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneToLoad: DinoRushLevelEnd
 --- !u!1 &996682686
 GameObject:
   m_ObjectHideFlags: 0
@@ -981,7 +1009,6 @@ GameObject:
   - component: {fileID: 1079092605}
   - component: {fileID: 1079092603}
   - component: {fileID: 1079092602}
-  - component: {fileID: 1079092604}
   m_Layer: 0
   m_Name: Play Button
   m_TagString: Untagged
@@ -1045,18 +1072,6 @@ MonoBehaviour:
     positionOffset: {x: 0, y: 0, z: 0}
   m_posOffsetData: {fileID: 0}
   listenerMask: 1
---- !u!114 &1079092604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079092601}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 06caa3f3753b53148a374e5a3be7db06, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1079092605
 Transform:
   m_ObjectHideFlags: 0
@@ -1175,6 +1190,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1267469146}
   - component: {fileID: 1267469147}
+  - component: {fileID: 1267469148}
   m_Layer: 5
   m_Name: OptionsMenu
   m_TagString: Untagged
@@ -1213,9 +1229,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 1267469145}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c0743dee60979094aac84d2275bbdf71, type: 3}
+  m_Script: {fileID: 11500000, guid: c166dc84f1673c54fba5ffd96987f77a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1267469148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267469145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 723346570c905894a977d15545b4ec8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rtpcName: MasterVolume
+  slider: {fileID: 609811340}
 --- !u!1 &1374771527
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1259,7 @@ GameObject:
   - component: {fileID: 1374771531}
   - component: {fileID: 1374771530}
   - component: {fileID: 1374771529}
+  - component: {fileID: 1374771533}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -1272,8 +1303,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 1374771533}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -1328,8 +1359,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 855448929}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 1814627038}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: PlayGame
         m_Mode: 1
         m_Arguments:
@@ -1340,9 +1371,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1079092604}
-        m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
-        m_MethodName: Onclick
+      - m_Target: {fileID: 1374771533}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1390,6 +1421,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1374771527}
   m_CullTransparentMesh: 1
+--- !u!114 &1374771533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374771527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
 --- !u!1 &1403563521
 GameObject:
   m_ObjectHideFlags: 0
@@ -1478,6 +1523,7 @@ GameObject:
   - component: {fileID: 1510274148}
   - component: {fileID: 1510274147}
   - component: {fileID: 1510274146}
+  - component: {fileID: 1510274150}
   m_Layer: 5
   m_Name: QuitButton
   m_TagString: Untagged
@@ -1521,8 +1567,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 1510274150}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -1577,9 +1623,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 855448929}
-        m_TargetAssemblyTypeName: MainMenu, Assembly-CSharp
+      - m_Target: {fileID: 1814627038}
+        m_TargetAssemblyTypeName: MainMenuController, Assembly-CSharp
         m_MethodName: QuitGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1510274150}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1627,6 +1685,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1510274144}
   m_CullTransparentMesh: 1
+--- !u!114 &1510274150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510274144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
 --- !u!1 &1731017319
 GameObject:
   m_ObjectHideFlags: 0
@@ -1769,6 +1841,8 @@ GameObject:
   - component: {fileID: 1814627035}
   - component: {fileID: 1814627034}
   - component: {fileID: 1814627033}
+  - component: {fileID: 1814627038}
+  - component: {fileID: 1814627037}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1859,6 +1933,31 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1814627037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814627032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c166dc84f1673c54fba5ffd96987f77a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1814627038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814627032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d9bcccbad98904089564f36f498b72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: DinoRushLevelEnd
 --- !u!1 &1833889153
 GameObject:
   m_ObjectHideFlags: 0
@@ -2022,6 +2121,7 @@ GameObject:
   - component: {fileID: 1900382146}
   - component: {fileID: 1900382145}
   - component: {fileID: 1900382144}
+  - component: {fileID: 1900382148}
   m_Layer: 5
   m_Name: CreditsButton
   m_TagString: Untagged
@@ -2065,8 +2165,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 1900382148}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -2145,6 +2245,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1900382148}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1900382146
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2183,6 +2295,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900382142}
   m_CullTransparentMesh: 1
+--- !u!114 &1900382148
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1900382142}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
 --- !u!1 &1916107192
 GameObject:
   m_ObjectHideFlags: 0
@@ -2196,6 +2322,7 @@ GameObject:
   - component: {fileID: 1916107196}
   - component: {fileID: 1916107195}
   - component: {fileID: 1916107194}
+  - component: {fileID: 1916107198}
   m_Layer: 5
   m_Name: OptionsButton
   m_TagString: Untagged
@@ -2239,8 +2366,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 1916107198}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -2319,6 +2446,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1916107198}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1916107196
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2357,6 +2496,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916107192}
   m_CullTransparentMesh: 1
+--- !u!114 &1916107198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916107192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
 --- !u!1 &1973105866
 GameObject:
   m_ObjectHideFlags: 0
@@ -2445,6 +2598,7 @@ GameObject:
   - component: {fileID: 1973502109}
   - component: {fileID: 1973502108}
   - component: {fileID: 1973502111}
+  - component: {fileID: 1973502112}
   m_Layer: 5
   m_Name: BackButton
   m_TagString: Untagged
@@ -2539,6 +2693,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1973502112}
+        m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
+        m_MethodName: OnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1973502109
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2594,8 +2760,8 @@ MonoBehaviour:
     callback:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1079092604}
-          m_TargetAssemblyTypeName: PlayButtonSound, Assembly-CSharp
+        - m_Target: {fileID: 1973502112}
+          m_TargetAssemblyTypeName: UIButtonSoundFeedback, Assembly-CSharp
           m_MethodName: OnPointerEnter
           m_Mode: 1
           m_Arguments:
@@ -2606,3 +2772,17 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+--- !u!114 &1973502112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973502106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff4b0206550342640999bc71d9b477d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickEvent: Validation
+  hoverEvent: Hoover
